@@ -26,5 +26,5 @@ Balancing these two aspectsâ€”technical accuracy and conversational engagementâ€
 
 ### Data
 
-  APIs: OpenAI API Key, Google BigQuery Service Account Credentials, and necessary packages needed to run.
-  Data: https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset?ref=rabbitmetrics.com
+- Pre-requisites: OpenAI API Key, Google BigQuery Service Account Credentials, and necessary packages needed to run.\
+- Data: https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset?ref=rabbitmetrics.com
