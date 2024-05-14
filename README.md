@@ -26,5 +26,5 @@ Balancing these two aspectsâ€”technical accuracy and conversational engagementâ€
 
 ### Data
 
-- Pre-requisites: OpenAI API Key, Google BigQuery Service Account Credentials, and necessary packages needed to run.\
+- Pre-requisites: OpenAI API Key, Google BigQuery Service Account Credentials, and necessary packages (python-dotenv, langchain, langchain-openai, langchain_core, langchain_experimental google-cloud-bigquery, gradio).
 - Data: https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset?ref=rabbitmetrics.com
