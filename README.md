@@ -12,11 +12,17 @@ This project presents a new frontier for business intelligence enabled by large 
 
 ### Use Cases
 
-What kind of queries might a user enter and what are the responses the system should give
+The "Kregg" project represents an innovative approach to business intelligence by enabling natural language interaction with a database through a chatbot interface. Designed to assist business executives, Kregg allows users to ask questions about their data and receive immediate, actionable insights without needing to write SQL queries or understand the underlying database structure. For instance, executives can quickly ascertain their total sales for the last quarter, analyze customer acquisition trends, and identify low-stock products simply by asking Kregg. This capability significantly enhances operational efficiency, making it easy to track inventory levels, evaluate marketing campaign ROI, and generate financial reports on demand.
+
+Moreover, Kregg facilitates customer support analytics by providing data on ticket resolution times and helps in identifying sales trends over time. By making data more accessible and reducing the reliance on technical teams, Kregg empowers non-technical users to generate custom reports, track budget expenditures, and optimize operational workflows. The project leverages the power of large language models and integrates them with a Gradio interface, ensuring that business executives can interact with their data in a conversational manner. This not only speeds up the business intelligence workflow but also opens up new ways to interact with data, ultimately driving more informed decision-making and strategic planning. Despite some limitations, such as occasional inaccuracies in SQL generation, the benefits of having real-time, easy-to-access data insights far outweigh the drawbacks, marking a significant advancement in the field of business intelligence.
 
 ### System Prompt
 
-What kind of system prompt etc is needed to make the LLM respond in the appropriate why, e.g. response length, style, when not to give an answer etc.
+Developing the "Kregg" project required meticulous prompt engineering to achieve successful execution. One of the major challenges was ensuring the accurate generation of SQL queries. Since the model needed to interact with a public BigQuery ecommerce database, it was crucial to ensure that the SQL it generated was clean and correctly formatted. This involved extensive fine-tuning and testing of the prompts to ensure that they could handle various user queries and return precise, well-structured SQL code. Proper SQL generation was essential to maintain the integrity of the data retrieved and to provide reliable insights to the users.
+
+In addition to generating accurate SQL, another significant aspect of the project was designing the chatbot's conversational prompt. I aimed to create an engaging and entertaining user experience by making the interactions with Kregg more conversational and humorous. This required a different approach to prompt engineering, focusing on natural language processing and user engagement. The conversational prompt needed to present facts in a way that was both informative and enjoyable, making the process of querying data feel less like a technical task and more like a friendly conversation.
+
+Balancing these two aspects—technical accuracy and conversational engagement—was key to the project's success. The SQL prompt needed to be precise and robust to handle complex queries and return correct results. Meanwhile, the conversational prompt aimed to make the user experience more enjoyable and accessible, encouraging users to interact with their data more frequently and intuitively. This dual approach not only enhanced the usability of the system but also made the interaction with business data more dynamic and user-friendly.
 
 ### Data
 
