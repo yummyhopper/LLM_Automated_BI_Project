@@ -1,4 +1,4 @@
-# Chatting With A BigQuery Database Using LLMs: A New Frontier For BI?
+# Chatting With A BigQuery Database Using LLMs
 
 ![](automated_BI.webp)
 
