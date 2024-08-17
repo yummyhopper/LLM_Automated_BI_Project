@@ -1,14 +1,8 @@
 # Chatting With A BigQuery Database Using LLMs: A New Frontier For BI?
 
-### Description
+### Introduction
 
-Imagine if your database was a person... Let's call him Kregg. Kregg is a normal guy other than having your entire database of business analytics at his finger tips. If you have a question about your data, you can just ask Kregg and he'll tell you the answer. 
-
-The goal of this project was to build a chatbot that could facilitate a discussion between a business executive and their data through natural language. I used LangChain to build an AI application that queries a public BigQuery ecommerce database, and then allows you to chat directly with your data through a Gradio interface.
-
-I began by installing and importing the necessary packages and libraries, setting up my BigQuery credentials, and cloning the database. I then by defining functions that scraped the schema information from the database, including nested fields, and built a description in natural language that I could feed to the model. Using the schema the model then writes a SQL query based on the users question and returns a dataframe with the data as an answer. I then created a chat interface where users can ask questions and extract insights from the data and a graphing agent for data visualizations.
-
-This project presents a new frontier for business intelligence enabled by large language models. While the SQL isn't always flawless and the chatbot can get confused at times, the ability to run and execute queries on a personal database dramatically speeds up the business intelligence workflow and presents new ways to interact with data.
+Imagine your database as a person—let's call him Kregg. Kregg is an ordinary individual, except he possesses all your business analytics at his fingertips. Whenever you have a question about your data, you simply ask Kregg, and he provides the answer. The goal of this project was to create a chatbot that enables business executives to interact with their data through natural language. To achieve this, I developed an AI application using LangChain that queries a public BigQuery e-commerce database, allowing direct interaction with the data via a Gradio interface. The process began by installing and importing the necessary packages and libraries, setting up BigQuery credentials, and cloning the database. I then defined functions to extract schema information from the database, including nested fields, and generated a natural language description to input into the model. Using this schema, the model generates SQL queries based on user questions, returning a dataframe with the requested data. Additionally, I developed a chat interface that enables users to ask questions and extract insights from the data, along with a graphing agent for data visualizations. This project represents a new frontier for business intelligence, empowered by large language models. While the SQL isn't always perfect and the chatbot occasionally encounters challenges, the ability to execute queries on a personal database significantly accelerates the business intelligence workflow and introduces innovative ways to interact with data.
 
 ### Use Cases
 
