@@ -26,5 +26,18 @@ Balancing these two aspectsâ€”technical accuracy and conversational engagementâ€
 
 ### Data
 
-- Pre-requisites: OpenAI API Key, Google BigQuery Service Account Credentials, and necessary packages (python-dotenv, langchain, langchain-openai, langchain_core, langchain_experimental google-cloud-bigquery, gradio).
-- Data: https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset?ref=rabbitmetrics.com
+This dataset was obtained through the BigQuery Public Datasets program. It contains real sample data from the Google Merchandise Store, an online store ran by Google. The dataset is structured as a relational database in Google BigQuery. More information can be found here: https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset
+
+### Tools + Skills
+
+- Prompt Engineering
+- Google BigQuery
+- Database Architecture
+- Python
+  - python-dotenv
+  - langchain
+  - langchain-openai
+  - langchain_core
+  - langchain_experimental
+  - google-cloud-bigquery
+  - gradio
